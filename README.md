@@ -25,25 +25,25 @@ First we acces the Raspberry configuration menu with the command *sudo raspi-con
 
 2. The main configuration menu appears and we go to Advanced Options
 
-<img src="/img/Screenshot_1.png" width="100%" height="auto">
+<img src="/img/Screenshot_1.png" width="70%" height="auto">
  
 3. We will move with the arrow keys to option A7 I2C
 
-<img src="/img/Screenshot_2.png" width="100%" height="auto">
+<img src="/img/Screenshot_2.png" width="70%" height="auto">
 
 4. We will be asked if we want to activate the ARM I2C interface option
 
-<img src="/img/Screenshot_3.png" width="100%" height="auto">
+<img src="/img/Screenshot_3.png" width="70%" height="auto">
 
 4. We will select yes anda screen will notify us taht ARM I2C interface has been activated
 
- <img src="/img/Screenshot_4.png" width="100%" height="auto">
+ <img src="/img/Screenshot_4.png" width="70%" height="auto">
 
 5. After we will do this process, we will modify the Raspberry's modules fils in order to acces I2C port. For this, we type in the terminal *sudo nano /etc/modules*
 
 In it, we will include these two lines at the end of the file
 
- <img src="/img/Screenshot_5.png" width="100%" height="auto">
+ <img src="/img/Screenshot_5.png" width="70%" height="auto">
 
 Finally, we have to restart the Raspberry Pi and test if the I2C port works.
 
